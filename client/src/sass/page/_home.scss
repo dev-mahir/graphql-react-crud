@@ -1,0 +1,26 @@
+// Home page
+
+.home {
+  //common css
+  background-color: $bg-red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
+  @include for-phone {
+    background-color: $bg-dark-orange;
+  }
+
+
+  @include for-tablet {
+    background-color: yellow;
+    color: black;
+  }
+  button{
+    @include btn-primary
+  }
+
+}

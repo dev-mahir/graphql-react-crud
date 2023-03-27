@@ -1,0 +1,9 @@
+
+
+@mixin btn-primary {
+  background-color: $bg-blue;
+  color: $white;
+  &:hover {
+    background-color: rgb(143, 143, 223);
+  }
+}
